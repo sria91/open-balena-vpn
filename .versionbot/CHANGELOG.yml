@@ -1,4 +1,24 @@
 - commits:
+    - subject: Removed systemd Removed systemd from balena vpn container
+      hash: 06c0610d3cec31a7301d2f9bfd486b9be43ed190
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+    - subject: Remove systemd Removing systemd to enable running unprivileged
+      hash: 2eabbfa6779499287bddd11af3f73dd5e3fccd8c
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+  version: 11.3.0
+  title: "'Remove systemd'"
+  date: 2022-03-10T08:42:43.906Z
+- commits:
     - subject: VPN connection draining
       hash: cb9a339620c08d805fa655166a5eb23a7057cbe4
       body: |
