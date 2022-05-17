@@ -1,4 +1,19 @@
 - commits:
+    - subject: Fixes check for uuid to serviceID assignement
+      hash: a8b098e63f6265938228d7efb20d3c5870993197
+      body: >
+        As the vpn registeres a serviceID with UUIDs in the api
+
+        checking back if the serviceID is registerd with the UUID should not throw an error on equality.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: fisehara
+      nested: []
+  version: 11.3.7
+  title: "'Fixes check for uuid to serviceID assignement'"
+  date: 2022-05-17T20:37:32.050Z
+- commits:
     - subject: Update open-balena-base to 13.3.1
       hash: 514c486b4ebe0bdd771200084fd82dd08fbd6dbb
       body: |
